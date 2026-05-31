@@ -9,7 +9,7 @@ It includes tools to:
 - 🧭 compute safety-token directions from aligned models
 - 🔧 fine-tune models with PACT regularization
 - 🛡️ evaluate safety on safety benchmarks
-- 📊 evaluate utility on downstream tasks such as AGNews and SST2
+- 📊 evaluate utility on downstream tasks such as AGNews, SST2, and GSM8K
 
 ---
 
