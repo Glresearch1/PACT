@@ -2,6 +2,8 @@
 
 **PACT** is a fine-tuning pipeline designed to preserve model safety while adapting aligned language models to downstream tasks.
 
+📄 **Paper:** [Few Tokens, Big Leverage: Preserving Safety Alignment by Constraining Safety Tokens during Fine-tuning](https://arxiv.org/abs/2603.07445)
+
 It includes tools to:
 
 - 🧭 compute safety-token directions from aligned models
@@ -150,6 +152,9 @@ python eval_sst2.py \
     --max_model_len 4096 \
     --max_new_tokens 200
 ```
+### GSM8K
+
+Use office (https://github.com/EleutherAI/lm-evaluation-harness/) to evaluate ACC
 
 ---
 
